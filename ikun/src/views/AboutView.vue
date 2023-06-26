@@ -530,11 +530,10 @@ img {
 
 .section--featured {
   max-width: 500px;
-  margin-top: 10rem;
 }
 
 .row {
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 .section--featured .row,
@@ -549,7 +548,7 @@ img {
   bottom: -70rem;
   left: 30rem;
 
-  width: 600px;
+  width: 1200px;
   transform: rotateX(60deg) rotateZ(-45deg) scale(1.2);
   justify-content: flex-end;
 }
@@ -571,7 +570,7 @@ img {
 }
 .section--featured .column {
   width: 50%;
-  max-width: 50%;
+
   padding: 20px;
   flex: 1 1 50%;
 }
@@ -661,6 +660,25 @@ img {
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
   }
+}
+.body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: auto;
+  background: linear-gradient(
+    315deg,
+    rgba(101, 0, 94, 1) 3%,
+    rgba(60, 132, 206, 1) 38%,
+    rgba(48, 238, 226, 1) 68%,
+    rgba(255, 25, 25, 1) 98%
+  );
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+  width: 100rem;
+  height: 100rem;
+  top: 0;
+  left: 0;
 }
 
 @keyframes gradient {
